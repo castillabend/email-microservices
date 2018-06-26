@@ -12,7 +12,7 @@ channel.queue_declare(queue="importers")
 def importers(ch, method, properties, body):
     j = json.loads(body)
     print(j)
-    enviaremail(j['subject'], j['destine'], j['from'], j['cc'], j['body'])
+    enviaremail(j['subject'], j['destine'], j['from'], j['body']) #, j['cc']
 
 
 channel.basic_consume(importers, queue="importers", no_ack=True)
