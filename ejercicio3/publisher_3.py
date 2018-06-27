@@ -1,24 +1,22 @@
 import json
 import pika
-import sys
 
 connection = pika.BlockingConnection(pika.ConnectionParameters('localhost'))
 channel = connection.channel()
-channel.exchange_declare(exchange='logs', exchange_type='fanout')
-
-#message = ' '.join(sys.argv[1:]) or "info: Hello World!"
+channel.exchange_declare(exchange='logs', exchange_type='direct')
 
 message = json.dumps({'tipo': 'Error',
-                     'codigo': '6789',
+                     'codigo': '123456789',
                      'body': 'Ojo men, error in server'
                      })
-channel.basic_publish(exchange='logs', routing_key='', body=message)
+j = json.loads(message)
+channel.basic_publish(exchange='logs', routing_key=j['tipo'], body=message)
 print(" [*] Sent message: {}".format(message))
-# connection.close()
-
-
 print("Done")
 connection.close()
+
+
+
 
 
 

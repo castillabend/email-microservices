@@ -45,7 +45,7 @@ def callback(ch, method, properties, body):
     j = json.loads(body)
     print(j)
     send_data = '[{}] {} {}'.format(j['tipo'], j['codigo'],j['body'])
-    if j ['tipo'] == 'Error':
+    if j['tipo'] == 'Error':
         print('Sending email')
         server = smtplib.SMTP('smtp.gmail.com', 587)
         server.starttls()
