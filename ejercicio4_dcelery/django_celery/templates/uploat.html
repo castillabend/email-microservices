@@ -1,0 +1,28 @@
+{#<input type="hidden" name="MAX_FILE_SIZE" value="4194304" />#}
+{#<input type="file" />#}
+
+
+ <!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Ejemplo </title>
+
+</head>
+
+<body>
+
+<form method="post" action="" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Subir</button>
+
+
+</form>
+
+</body>
+
+</html>
+
