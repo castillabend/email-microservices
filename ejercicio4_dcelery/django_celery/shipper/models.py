@@ -3,7 +3,7 @@ from django.db import models
 # Create your models here.
 
 
-class FileUploat(models.Model):
+class FileUpload(models.Model):
     name = models.FileField()
 
     def __str__(self):

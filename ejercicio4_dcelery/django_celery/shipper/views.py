@@ -4,8 +4,8 @@ from django.shortcuts import render, redirect
 from django.urls import reverse_lazy
 from django.views.generic import CreateView
 
-from shipper.form import UploatForm
-from shipper.models import FileUploat
+from shipper.forms import UploatForm
+from shipper.models import FileUpload
 
 #
 # def uploat (request):
@@ -15,14 +15,14 @@ from shipper.models import FileUploat
 #             form.save()
 #             # return redirect('shipper:listar')
 #     contexto = {'form': form}
-#     return render(request, 'uploat.html', contexto)
+#     return render(request, 'upload.html', contexto)
 
 
 class FileUploatView(CreateView):
-    model = FileUploat
-    template_name = 'uploat.html'
+    model = FileUpload
+    template_name = 'upload.html'
     form_class = UploatForm
-    success_url = reverse_lazy('shipper:uploat')
+    success_url = reverse_lazy('shipper:upload')
 
     # def form_valid(self, form):
     #     form.save()

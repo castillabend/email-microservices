@@ -119,7 +119,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
-MEDIA_ROOT = '/home/pedro/PycharmProjects/practicas_moncaris/medias'
+MEDIA_ROOT = '/home/pedro/rabbit/email-microservices/ejercicio4_dcelery/django_celery/medias'
 
 MEDIA_URL = '/media/'
 
