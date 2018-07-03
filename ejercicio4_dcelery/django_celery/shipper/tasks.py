@@ -1,10 +1,7 @@
 from __future__ import absolute_import
 from celery import current_app
-from shipper.models import FileUpload
 from .models import FileUpload
 import pandas as re
-
-#import numpy as np
 from django.contrib.auth.models import User
 
 
@@ -46,3 +43,9 @@ def read_excel(val_id):
     # user.is_superuser=True   #permisos de superusuario
     # user.is_staff=True #definimos si es parte del staff
     user.save() #guardamos los datos.
+
+
+
+
+
+

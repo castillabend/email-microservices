@@ -1,9 +1,9 @@
 from django.conf.urls import url
 
-from shipper.views import FileUploatView
+from shipper.views import FileUploadView
 
 app_name = "shipper"
 urlpatterns = [
-    url(r'upload/$', FileUploatView.as_view(), name="upload"),
+    url(r'upload/$', FileUploadView.as_view(), name="upload"),
 
 ]

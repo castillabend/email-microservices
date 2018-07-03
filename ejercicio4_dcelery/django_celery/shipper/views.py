@@ -4,7 +4,7 @@ from django.shortcuts import render, redirect
 from django.urls import reverse_lazy
 from django.views.generic import CreateView
 
-from shipper.forms import UploatForm
+from shipper.forms import UploadForm
 from shipper.models import FileUpload
 
 #
@@ -18,10 +18,10 @@ from shipper.models import FileUpload
 #     return render(request, 'upload.html', contexto)
 
 
-class FileUploatView(CreateView):
+class FileUploadView(CreateView):
     model = FileUpload
     template_name = 'upload.html'
-    form_class = UploatForm
+    form_class = UploadForm
     success_url = reverse_lazy('shipper:upload')
 
     # def form_valid(self, form):
