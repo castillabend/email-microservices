@@ -1,0 +1,17 @@
+Warning 6789:  Ojo men, error in server
+Warning 6789:  Ojo men, error in server
+Warning 6789:  Ojo men, error in server
+Warning 6789:  Ojo men, error in server
+Warning 6789:  Ojo men, error in server
+Warning 6789:  Ojo men, error in server
+Info 6789:  Ojo men, error in server
+Info 6789:  Ojo men, error in server
+Info 6789:  Ojo men, error in server
+Info 6789:  Ojo men, error in server
+Warning 6789:  Ojo men, error in server
+Error 6789:  Ojo men, error in server
+Warning 6789:  Ojo men, error in server
+Debug 6789:  Ojo men, error in server
+Info 1234:  Ojo men, error in server
+Error 1234:  Ojo men, error in server
+Error 123456789:  Ojo men, error in server

@@ -1,0 +1,13 @@
+Error:  Ojo men, error in server
+Error:  Ojo men, error in server
+Error:  Ojo men, error in server
+Error12345:  Ojo men, error in server
+Error12345:  Ojo men, error in server
+Error 12345:  Ojo men, error in server
+Error 12345:  Ojo men, error in server
+Error 12345:  Ojo men, error in server
+Warning 6789:  Ojo men, error in server
+Warning 6789:  Ojo men, error in server
+Warning 6789:  Ojo men, error in server
+Warning 6789:  Ojo men, error in server
+Error 6789:  Ojo men, error in server
