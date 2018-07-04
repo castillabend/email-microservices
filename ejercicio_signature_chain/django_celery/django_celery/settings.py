@@ -107,7 +107,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/1.11/topics/i18n/
 
-LANGUAGE_CODE = 'en'
+LANGUAGE_CODE = 'es'
 
 TIME_ZONE = 'America/Bogota'
 
@@ -132,5 +132,9 @@ EMAIL_PORT = 25
 EMAIL_HOST_USER = 'castillabend@gmail.com'
 EMAIL_HOST_PASSWORD = 'reinandoenvida'
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_SUBJECT = 'Reporte Usuarios Activos'
+EMAIL_BODY = 'PSI Adjunto Reporte Usuarios Activos'
+EMAIL_TO = ['castillabend@gmail.com',]
+
 
 

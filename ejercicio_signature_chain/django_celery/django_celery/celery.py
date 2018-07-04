@@ -24,6 +24,7 @@ app.conf.beat_schedule = {
     #     # Cada minuto
     #     'schedule': crontab(minute='*/1'),
     # },
+
 }
 
 

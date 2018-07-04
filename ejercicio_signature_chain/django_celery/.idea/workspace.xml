@@ -14,11 +14,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file leaf-file-name="tasks.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shipper/tasks.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
               <caret line="71" column="24" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
+=======
+      <file leaf-file-name="tasks.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shipper/tasks.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="74" column="19" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="19" />
+>>>>>>> cd2a948ece939c41db5b285853469b189b021a0a
               <folding>
                 <element signature="e#0#56#0" expanded="true" />
               </folding>
@@ -29,8 +37,13 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/django_celery/settings.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="377">
               <caret line="128" selection-start-line="128" selection-end-line="134" />
+=======
+            <state relative-caret-position="466">
+              <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
+>>>>>>> cd2a948ece939c41db5b285853469b189b021a0a
               <folding>
                 <element signature="e#315#324#0" expanded="true" />
               </folding>
@@ -38,11 +51,19 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="celery.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/django_celery/celery.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
               <caret line="23" selection-start-line="23" selection-end-line="24" />
+=======
+      <file leaf-file-name="celery.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/django_celery/celery.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+>>>>>>> cd2a948ece939c41db5b285853469b189b021a0a
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -50,6 +71,21 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+=======
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shipper/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="15" selection-end-line="16" />
+              <folding>
+                <element signature="e#250#274#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+>>>>>>> cd2a948ece939c41db5b285853469b189b021a0a
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -81,10 +117,17 @@
         <option value="$PROJECT_DIR$/shipper/urls.py" />
         <option value="$PROJECT_DIR$/shipper/task_test.py" />
         <option value="$PROJECT_DIR$/templates/upload.html" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/django_celery/settings.py" />
         <option value="$PROJECT_DIR$/django_celery/celery.py" />
         <option value="$PROJECT_DIR$/shipper/views.py" />
         <option value="$PROJECT_DIR$/shipper/tasks.py" />
+=======
+        <option value="$PROJECT_DIR$/shipper/views.py" />
+        <option value="$PROJECT_DIR$/shipper/tasks.py" />
+        <option value="$PROJECT_DIR$/django_celery/settings.py" />
+        <option value="$PROJECT_DIR$/django_celery/celery.py" />
+>>>>>>> cd2a948ece939c41db5b285853469b189b021a0a
       </list>
     </option>
   </component>
@@ -109,6 +152,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
+      <pane id="Scope" />
+>>>>>>> cd2a948ece939c41db5b285853469b189b021a0a
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -135,7 +182,10 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scope" />
+=======
+>>>>>>> cd2a948ece939c41db5b285853469b189b021a0a
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -206,6 +256,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+<<<<<<< HEAD
+=======
+    <editor active="true" />
+>>>>>>> cd2a948ece939c41db5b285853469b189b021a0a
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5002764" side_tool="true" weight="0.33053514" />
@@ -213,8 +267,13 @@
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997236" weight="0.32948583" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32948583" />
+<<<<<<< HEAD
       <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4997236" visible="true" weight="0.32948583" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3482587" />
+=======
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4997236" visible="true" weight="0.33053514" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34438917" />
+>>>>>>> cd2a948ece939c41db5b285853469b189b021a0a
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32948583" />
@@ -230,27 +289,47 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
     <layout-to-restore>
+<<<<<<< HEAD
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+=======
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32948583" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+>>>>>>> cd2a948ece939c41db5b285853469b189b021a0a
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34051964" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32948583" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Python Console" order="10" />
+=======
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+>>>>>>> cd2a948ece939c41db5b285853469b189b021a0a
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.33053514" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
+=======
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+>>>>>>> cd2a948ece939c41db5b285853469b189b021a0a
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,6 +344,26 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/shipper/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shipper/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+          <folding>
+            <element signature="e#250#274#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+>>>>>>> cd2a948ece939c41db5b285853469b189b021a0a
     <entry file="file://$PROJECT_DIR$/shipper/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -289,6 +388,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+<<<<<<< HEAD
+=======
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+>>>>>>> cd2a948ece939c41db5b285853469b189b021a0a
         </state>
       </provider>
     </entry>
@@ -317,6 +422,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+<<<<<<< HEAD
+=======
+          <folding>
+            <element signature="e#250#274#0" expanded="true" />
+          </folding>
+>>>>>>> cd2a948ece939c41db5b285853469b189b021a0a
         </state>
       </provider>
     </entry>
@@ -411,6 +522,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+<<<<<<< HEAD
+=======
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+>>>>>>> cd2a948ece939c41db5b285853469b189b021a0a
         </state>
       </provider>
     </entry>
@@ -421,6 +538,16 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/templates/upload.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> cd2a948ece939c41db5b285853469b189b021a0a
     <entry file="file://$USER_HOME$/.virtualenvs/prodjango/lib/python3.6/site-packages/celery/local.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
@@ -491,6 +618,16 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$USER_HOME$/.virtualenvs/prodjango/lib/python3.6/site-packages/celery/app/task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="378" selection-start-line="378" selection-end-line="378" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> cd2a948ece939c41db5b285853469b189b021a0a
     <entry file="file://$PROJECT_DIR$/django_celery/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -498,6 +635,16 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$USER_HOME$/.virtualenvs/prodjango/lib/python3.6/site-packages/celery/app/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="360" column="8" selection-start-line="360" selection-start-column="8" selection-end-line="360" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> cd2a948ece939c41db5b285853469b189b021a0a
     <entry file="file://$PROJECT_DIR$/shipper/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -508,6 +655,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$USER_HOME$/.virtualenvs/prodjango/lib/python3.6/site-packages/celery/worker/consumer/consumer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -549,20 +697,34 @@
           <caret line="23" selection-start-line="23" selection-end-line="24" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/shipper/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="16" />
+          <folding>
+            <element signature="e#250#274#0" expanded="true" />
+>>>>>>> cd2a948ece939c41db5b285853469b189b021a0a
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/django_celery/settings.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="377">
           <caret line="128" selection-start-line="128" selection-end-line="134" />
+=======
+        <state relative-caret-position="466">
+          <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
+>>>>>>> cd2a948ece939c41db5b285853469b189b021a0a
           <folding>
             <element signature="e#315#324#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$USER_HOME$/.virtualenvs/prodjango/lib/python3.6/site-packages/celery/app/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
@@ -576,6 +738,24 @@
           <caret line="71" column="24" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
           <folding>
             <element signature="e#0#56#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/shipper/tasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="74" column="19" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django_celery/celery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+>>>>>>> cd2a948ece939c41db5b285853469b189b021a0a
           </folding>
         </state>
       </provider>

@@ -6,6 +6,7 @@ from django.contrib.auth.models import User
 from django_celery import celery_app as app
 from django.core.mail import EmailMessage
 import os
+from django.conf import settings
 
 
 @app.task
@@ -60,10 +61,10 @@ def create_excel():
 @app.task
 def send_mail(ruta):
     e = EmailMessage()
-    e.subject = 'Reporte Usuarios Activos'
-    e.to = ['castillabend@gmail.com',]
-    e.from_email = 'castillabend@gmail.com'
-    e.body = 'PSI Adjunto Reporte Usuarios Activos'
+    e.subject = settings.EMAIL_SUBJECT     # 'Reporte Usuarios Activos'
+    e.to = settings.EMAIL_TO  #['castillabend@gmail.com',]
+    e.from_email = settings.EMAIL_HOST_USER    #'castillabend@gmail.com'
+    e.body = settings.EMAIL_BODY  #'PSI Adjunto Reporte Usuarios Activos'
     e.attach_file(ruta)
     e.send()
     return ruta
